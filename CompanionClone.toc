@@ -1,0 +1,10 @@
+## Interface: 40200
+## Title: CompanionClone
+## Notes: Target a noncombat pet or mounted player and summon your identical pet or mount.  If you have a pet that interacts with the target pet, that can be summoned instead.  Can be configured to summon a random pet when you don't have a target or can't clone, and to provide emotes or chat messages.  Knows about a few similar pets to summon when you don't own a precise pet.
+## Version: 1.7.1
+## Author: Cayenne
+## SavedVariables: CompanionCloneDB
+Embeds.xml
+CompanionClone.lua
+Config.lua
+Companions.lua

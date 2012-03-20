@@ -1,0 +1,5 @@
+<Bindings>
+	<Binding name="CLONETARGET" description="Clone targeted companion" header="COMPANIONCLONE">
+		LibStub("AceAddon-3.0"):GetAddon("CompanionClone"):cloneTarget()
+	</Binding>
+</Bindings>
