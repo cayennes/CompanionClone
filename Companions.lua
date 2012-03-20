@@ -92,6 +92,7 @@ local auraToSpellName = {
 	["Summon Charger"] = "Charger",
 	["Summon Warhorse"] = "Warhorse",
 	["Bronze Drake"] = "Bronze Drake Mount",
+	["Black Drake"] = "Black Drake Mount",
 	__index = function(_, auraName) 
 		return auraName 
 	end
