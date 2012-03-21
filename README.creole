@@ -1,0 +1,54 @@
+Note: I'm not currently playing WoW.  I'm happy to do what maintenance I can with a trial account, but I may not notice when a patch comes out or if anything breaks, so please open a ticket on curseforge or email me at luacayenne@gmail.com if this happens.
+
+== Description ==
+
+Target a noncombat pet or mounted player and summon your identical pet or mount.  If you have a pet that interacts with the target pet, that can be summoned instead.  Can be configured to summon a random pet when you don't have a target or can't clone; by default this will not include pets with cooldowns or reagent requirements, but this can be changed in preferences.  Can also be configured to do an emote or chat text whenever you use it (you can enter arbitrarily many, each enabled for your choice of actions; they can include the name of your target and the pet/mount you summon.)
+
+Examples: The raid leader says this boss attempt needs bunnies; clone someone else's instead of searching through the pet interface.  Someone in a random dungeon has a firefly; show them you share their taste.  You're camping higher learning books and someone's standing there with a Bombay; add some (relative) excitement to the camping.
+
+In some cases it will summon a similar pet if you have something similar but not the pet you are trying to clone.  However I'm only slowly creating the database; this isn't really how I like to spend my programming time.  Let me know if you'd like to help or there's a particular pet similarity you care about that I should include in the next update.
+
+== Usage ==
+
+Set a keybinding in the addon options pane or blizzard keybindings interface, target the pet or mount you want, and press your key.
+
+Or if you use a LibDataBroker display addon, make sure it's set up to show the CompanionClone plugin the way you want, target, and click the plugin.
+
+Or put the command /companionclone in a macro.  Target the pet or mount you want to clone.  Use the macro.  Or just target and type /companionclone.
+
+You can set the options to always clone a pet even when you have a pet that interacts, or to get out a random pet if when you can't clone in interface -> addons -> CompanionClone.  /companionclone config will open this, as will right clicking on the broker plugin.
+
+The options panel comes with in-game help.
+
+== Help Me ==
+
+There's a fair amount of companion data that needs to be programmed in manually.  If you know a lot about pets and mounts, check the "how to help me" section of the help panel to see if you know something that would be helpful to this addon.
+
+The user base of this addon is just big enough that if you're experiencing an issue chances are someone else is experiencing it too, but not enough people that you can rely on anyone else to report it.  So please let me know, for the sake of the quality of the addon and the experience of everyone using it.
+
+You can message me here, leave a ticket at [[http://wow.curseforge.com/addons/companionclone/tickets/|curseforge]], or email me at luacayenne@gmail.com.
+
+== Considered Features ==
+
+Do let me know if you have any feature requests! Many of the features this addon has were requested before I added them.  Even if it's a feature I've already thought of I'm more likely to get around to it, and sooner, if I know someone wants it.  So your feature requests make this a better addon.
+
+Any of these will likely be added if I hear from anyone who wants it:
+
+* Ability to properly say "a" or "an" in an emote/speech before a target or summoned companion depending on whether it begins with a vowel
+* Option to only blacklist reagent pets if you don't have the reagent in your inventory 
+* An option to produce a random mount when you have no target and/or are targeting a player whose mount you can't clone (this would also work with targeting yourself.)
+* Blacklist options for cloning as well as random pet fetching
+* Custom blacklists
+* An option to turn off the informational messages in the chat frame
+* Possibility for localizing to support similar pets/friends/those mounts that need special data in non-English WoW clients
+* GPL License
+
+This will likely be added if I hear from someone who's willing to help me create said database (or a //lot// of people who want it):
+
+* Complete database of similar pets
+* Similar mounts as well
+* Have it work on mobs as well (lavanthor?  give me corehound pup)
+
+== Thanks ==
+
+Thanks to [[http://www.curse.com/members/sannask.aspx|SannaSK]], [[http://www.curse.com/members/vacama.aspx|Vacama]], NobodyNParticular, and [[http://wow.curse.com/user/Profile.aspx?UserID=3794465|Noxxana]] for suggesting features.
